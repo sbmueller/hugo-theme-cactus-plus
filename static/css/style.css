@@ -120,6 +120,7 @@ body {
     color: #666;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    text-align: justify;
 }
 
 h1 {
@@ -350,7 +351,7 @@ em, i {
     margin-top: 20px;
     margin-bottom: 10px;
     font: 300 32px/1.5 "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     color: #111;
 }
 
@@ -797,10 +798,10 @@ h2.month {
         font-size: 13px;
     }
     .post h1 {
-        font-size: 24px;
+        font-size: 32px;
     }
     .post h2 {
-        font-size: 20px;
+        font-size: 26px;
     }
 }
 
@@ -818,7 +819,7 @@ h2.month {
 
 .archive .post-time {
     display: inline-block;
-    width: 60px;
+    width: 100px;
     margin: 0;
     color: #8a8a8a;
 }
